@@ -21,6 +21,7 @@
 		4D349B2B19547A5E00203B35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D349B0D19547A5E00203B35 /* UIKit.framework */; };
 		4D349B3319547A5E00203B35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D349B3119547A5E00203B35 /* InfoPlist.strings */; };
 		4D349B3519547A5E00203B35 /* Astronomical_DataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D349B3419547A5E00203B35 /* Astronomical_DataTests.m */; };
+		4D349B4019547C0300203B35 /* DBJUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D349B3F19547C0300203B35 /* DBJUserData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		4D349B3019547A5E00203B35 /* Astronomical DataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Astronomical DataTests-Info.plist"; sourceTree = "<group>"; };
 		4D349B3219547A5E00203B35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4D349B3419547A5E00203B35 /* Astronomical_DataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Astronomical_DataTests.m; sourceTree = "<group>"; };
+		4D349B3E19547C0300203B35 /* DBJUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBJUserData.h; sourceTree = "<group>"; };
+		4D349B3F19547C0300203B35 /* DBJUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBJUserData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,7 @@
 		4D349AFD19547A5E00203B35 = {
 			isa = PBXGroup;
 			children = (
+				4D349B4119547C1100203B35 /* Model */,
 				4D349B0F19547A5E00203B35 /* Astronomical Data */,
 				4D349B2E19547A5E00203B35 /* Astronomical DataTests */,
 				4D349B0819547A5E00203B35 /* Frameworks */,
@@ -150,6 +154,15 @@
 				4D349B3119547A5E00203B35 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D349B4119547C1100203B35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D349B3E19547C0300203B35 /* DBJUserData.h */,
+				4D349B3F19547C0300203B35 /* DBJUserData.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D349B1619547A5E00203B35 /* main.m in Sources */,
+				4D349B4019547C0300203B35 /* DBJUserData.m in Sources */,
 				4D349B2019547A5E00203B35 /* DBJViewController.m in Sources */,
 				4D349B1A19547A5E00203B35 /* DBJAppDelegate.m in Sources */,
 			);
