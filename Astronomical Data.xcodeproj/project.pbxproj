@@ -22,6 +22,10 @@
 		4D349B3319547A5E00203B35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D349B3119547A5E00203B35 /* InfoPlist.strings */; };
 		4D349B3519547A5E00203B35 /* Astronomical_DataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D349B3419547A5E00203B35 /* Astronomical_DataTests.m */; };
 		4D349B4019547C0300203B35 /* DBJUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D349B3F19547C0300203B35 /* DBJUserData.m */; };
+		4D349B461954879300203B35 /* lioners.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4D349B421954879300203B35 /* lioners.jpeg */; };
+		4D349B471954879300203B35 /* kitty.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4D349B431954879300203B35 /* kitty.jpeg */; };
+		4D349B481954879300203B35 /* AlinaZolotnitskaya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D349B441954879300203B35 /* AlinaZolotnitskaya.jpg */; };
+		4D349B491954879300203B35 /* DavidJordan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D349B451954879300203B35 /* DavidJordan.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +60,10 @@
 		4D349B3419547A5E00203B35 /* Astronomical_DataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Astronomical_DataTests.m; sourceTree = "<group>"; };
 		4D349B3E19547C0300203B35 /* DBJUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBJUserData.h; sourceTree = "<group>"; };
 		4D349B3F19547C0300203B35 /* DBJUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBJUserData.m; sourceTree = "<group>"; };
+		4D349B421954879300203B35 /* lioners.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lioners.jpeg; sourceTree = "<group>"; };
+		4D349B431954879300203B35 /* kitty.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitty.jpeg; sourceTree = "<group>"; };
+		4D349B441954879300203B35 /* AlinaZolotnitskaya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlinaZolotnitskaya.jpg; sourceTree = "<group>"; };
+		4D349B451954879300203B35 /* DavidJordan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DavidJordan.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +129,10 @@
 				4D349B1B19547A5E00203B35 /* Main.storyboard */,
 				4D349B1E19547A5E00203B35 /* DBJViewController.h */,
 				4D349B1F19547A5E00203B35 /* DBJViewController.m */,
+				4D349B421954879300203B35 /* lioners.jpeg */,
+				4D349B431954879300203B35 /* kitty.jpeg */,
+				4D349B441954879300203B35 /* AlinaZolotnitskaya.jpg */,
+				4D349B451954879300203B35 /* DavidJordan.jpg */,
 				4D349B2119547A5E00203B35 /* Images.xcassets */,
 				4D349B1019547A5E00203B35 /* Supporting Files */,
 			);
@@ -242,8 +254,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D349B481954879300203B35 /* AlinaZolotnitskaya.jpg in Resources */,
+				4D349B471954879300203B35 /* kitty.jpeg in Resources */,
+				4D349B461954879300203B35 /* lioners.jpeg in Resources */,
 				4D349B2219547A5E00203B35 /* Images.xcassets in Resources */,
 				4D349B1419547A5E00203B35 /* InfoPlist.strings in Resources */,
+				4D349B491954879300203B35 /* DavidJordan.jpg in Resources */,
 				4D349B1D19547A5E00203B35 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

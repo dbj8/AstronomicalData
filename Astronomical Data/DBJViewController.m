@@ -18,6 +18,10 @@
 {
     [super viewDidLoad];
 	self.users = [DBJUserData users];
+    for(NSDictionary *userDictionary in self.users)
+    {
+        NSLog(@"%@",userDictionary);
+    }
 }
 
 - (void)didReceiveMemoryWarning

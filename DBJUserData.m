@@ -20,10 +20,10 @@
 {
     NSMutableArray *arrayOfUserDataDictionaries = [@[] mutableCopy];
     
-    NSDictionary *user1 = @{USER_NAME:@"David Jordan",EMAIL:@"dbj8@cornell.edu",PASSWORD:@"mypassword",AGE:@27,PROFILE_PICTURE:[UIImage imageNamed:@"DavidJordan.jpeg"]};
+    NSDictionary *user1 = @{USER_NAME:@"David Jordan",EMAIL:@"dbj8@cornell.edu",PASSWORD:@"mypassword",AGE:@27,PROFILE_PICTURE:[UIImage imageNamed:@"DavidJordan.jpg"]};
     [arrayOfUserDataDictionaries addObject:user1];
     
-    NSDictionary *user2 = @{USER_NAME:@"Alina Zolotnitskaya",EMAIL:@"azolot@gmail.com",PASSWORD:@"kitty",AGE:@27,PROFILE_PICTURE:[UIImage imageNamed:@"AlinaZolotnitskaya.jpeg"]};
+    NSDictionary *user2 = @{USER_NAME:@"Alina Zolotnitskaya",EMAIL:@"azolot@gmail.com",PASSWORD:@"kitty",AGE:@27,PROFILE_PICTURE:[UIImage imageNamed:@"AlinaZolotnitskaya.jpg"]};
     [arrayOfUserDataDictionaries addObject:user2];
     
     NSDictionary *user3 = @{USER_NAME:@"Kitty",EMAIL:@"kittykat@gmail.com",PASSWORD:@"meow",AGE:@4,PROFILE_PICTURE:[UIImage imageNamed:@"kitty.jpeg"]};
