@@ -8,23 +8,29 @@
 
 #import "DBJUserData.h"
 
+#define USER_NAME @"username"
+#define EMAIL @"email"
+#define PASSWORD @"password"
+#define AGE @"age"
+#define PROFILE_PICTURE @"profilePicture"
+
 @implementation DBJUserData
 
 + (NSArray *)users
 {
     NSMutableArray *arrayOfUserDataDictionaries = [@[] mutableCopy];
     
-//    username
-//    email
-//    password
-//    age
-//    profilePicture
-    
-    NSDictionary *user1 = @{@"username":@"David Jordan",@"email":@"dbj8@cornell.edu",@"password":@"mypassword",@"age":@27,@"profilePicture":[UIImage imageNamed:@"DavidJordan.jpeg"]};
+    NSDictionary *user1 = @{USER_NAME:@"David Jordan",EMAIL:@"dbj8@cornell.edu",PASSWORD:@"mypassword",AGE:@27,PROFILE_PICTURE:[UIImage imageNamed:@"DavidJordan.jpeg"]};
     [arrayOfUserDataDictionaries addObject:user1];
     
-    NSDictionary *user2 = @{@"username":@"Alina Zolotnitskaya",@"email":@"azolot@gmail.com",@"password":@"kitty",@"age":@27,@"profilePicture":[UIImage imageNamed:@"AlinaZolotnitskaya.jpeg"]};
+    NSDictionary *user2 = @{USER_NAME:@"Alina Zolotnitskaya",EMAIL:@"azolot@gmail.com",PASSWORD:@"kitty",AGE:@27,PROFILE_PICTURE:[UIImage imageNamed:@"AlinaZolotnitskaya.jpeg"]};
     [arrayOfUserDataDictionaries addObject:user2];
+    
+    NSDictionary *user3 = @{USER_NAME:@"Kitty",EMAIL:@"kittykat@gmail.com",PASSWORD:@"meow",AGE:@4,PROFILE_PICTURE:[UIImage imageNamed:@"kitty.jpeg"]};
+    [arrayOfUserDataDictionaries addObject:user3];
+    
+    NSDictionary *user4 = @{USER_NAME:@"Lioners",EMAIL:@"simbawannabe@gmail.com",PASSWORD:@"ohijustcantwaittobeking",AGE:@2,PROFILE_PICTURE:[UIImage imageNamed:@"lioners.jpeg"]};
+    [arrayOfUserDataDictionaries addObject:user4];
     
     return arrayOfUserDataDictionaries;
 }
