@@ -1,0 +1,34 @@
+//
+//  Astronomical_DataTests.m
+//  Astronomical DataTests
+//
+//  Created by David Jordan on 6/20/14.
+//  Copyright (c) 2014 dbjAppIndustries. All rights reserved.
+//
+
+#import <XCTest/XCTest.h>
+
+@interface Astronomical_DataTests : XCTestCase
+
+@end
+
+@implementation Astronomical_DataTests
+
+- (void)setUp
+{
+    [super setUp];
+    // Put setup code here. This method is called before the invocation of each test method in the class.
+}
+
+- (void)tearDown
+{
+    // Put teardown code here. This method is called after the invocation of each test method in the class.
+    [super tearDown];
+}
+
+- (void)testExample
+{
+    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+}
+
+@end
