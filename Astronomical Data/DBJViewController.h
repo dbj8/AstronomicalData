@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DBJUserData.h"
 
 @interface DBJViewController : UIViewController
+
+@property (strong,nonatomic) NSArray *users;
 
 @end
